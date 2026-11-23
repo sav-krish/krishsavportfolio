@@ -99,11 +99,6 @@
       "page": "https://www.iacompetitions.com/",
       "sha256": "3af4374c3621e6c38a1aa9b5b0e1a5748fafd4f4daef305995cd5366b162851c"
     },
-    "college-board.png": {
-      "source": "https://atlas.collegeboard.org/apricot/prod/4.12.2/assets/apple-touch-icon.png",
-      "page": "https://apstudents.collegeboard.org/",
-      "sha256": "85301bd48f658be283931eb3732a75edb83fdcc860c642fd7fe7e05e16512fa0"
-    },
     "cert-atlassian.svg": {
       "source": "simple-icons@13.21.0 (CC0)",
       "sha256": "c0aaa685c710bfe6a824b0076287f4383c85cc67bc561059814885d0d6184f39"

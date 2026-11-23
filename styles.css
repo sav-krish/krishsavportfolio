@@ -142,19 +142,13 @@ nav .nav-cta:hover { background: var(--ink); color: #fff; }
 .cert-copy small { display: block; font-size: .8125rem; color: var(--muted); margin-top: 2px; }
 
 /* Awards */
-.awards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
-.award { display: flex; flex-direction: column; padding: 24px; border: 1px solid var(--line); border-radius: 16px; background: #fff; transition: border-color .2s; }
+.awards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.award { display: flex; flex-direction: column; padding: 22px; border: 1px solid var(--line); border-radius: 16px; background: #fff; transition: border-color .2s; }
 .award:hover { border-color: #c9cdca; }
-.award-feature { grid-column: span 2; background: var(--surface); border-color: var(--surface); }
-.award.award-feature h3 { font-size: 1.5rem; font-weight: 600; letter-spacing: -.025em; line-height: 1.25; max-width: 24ch; }
 .award-logo { height: 52px; display: flex; align-items: center; margin-bottom: 20px; }
-.award-logo img { max-height: 52px; max-width: 150px; width: auto; height: auto; object-fit: contain; }
-.award-logo .logo-square { width: 48px; height: 48px; border-radius: 10px; }
-.logo-chip { width: 48px; height: 48px; border-radius: 10px; display: grid; place-items: center; }
-.logo-chip img { width: 30px; height: auto; max-height: 36px; }
+.award-logo img { max-height: 52px; max-width: min(140px, 100%); width: auto; height: auto; object-fit: contain; }
 .award h3 { font-size: 1rem; font-weight: 600; line-height: 1.4; letter-spacing: -.015em; }
 .award-stat { margin-top: 8px; font-size: .9375rem; color: var(--body); line-height: 1.55; }
-.award-feature .award-stat { font-size: 1rem; }
 .award-org { margin-top: auto; padding-top: 16px; font-size: .8125rem; color: var(--muted); }
 .award-org a { text-decoration: underline; text-decoration-color: #c4c8c5; }
 .award-org a:hover { color: var(--ink); text-decoration-color: var(--ink); }
@@ -253,8 +247,6 @@ nav .nav-cta:hover { background: var(--ink); color: #fff; }
   .certs { grid-template-columns: 1fr; gap: 10px; }
   .awards { grid-template-columns: 1fr; gap: 12px; }
   .award { padding: 20px; }
-  .award-feature { grid-column: auto; }
-  .award.award-feature h3 { font-size: 1.3rem; }
   .award-logo { height: 44px; margin-bottom: 16px; }
   .award-logo img { max-height: 44px; max-width: 130px; }
   .research-paper { grid-template-columns: 1fr; gap: 26px; }
