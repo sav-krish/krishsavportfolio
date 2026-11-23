@@ -125,7 +125,6 @@ details.xp-card { padding: 0; }
 .xp-body .impact { margin-top: 0; padding-top: 14px; border-top: 1px solid var(--line); }
 .xp-link { display: inline-flex; gap: 4px; margin-top: 12px; font-size: .8125rem; font-weight: 500; color: var(--ink); border-bottom: 1px solid #c4c8c5; padding-bottom: 1px; transition: border-color .2s; }
 .xp-link:hover { border-color: var(--ink); }
-.section-hint { margin-top: 8px; font-size: .875rem; color: var(--muted); }
 @media (prefers-reduced-motion: no-preference) {
   :root { interpolate-size: allow-keywords; }
   .xp-card::details-content { height: 0; overflow: clip; transition: height .3s ease, content-visibility .3s allow-discrete; }
