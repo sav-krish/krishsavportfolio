@@ -1,0 +1,87 @@
+{
+  "assets": {
+    "techinance.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-8c3b0fba-438d-4f53-8ab3-ebd7a9efe11f.png",
+      "sha256": "a2dc7621ee3bea7206b4cce4f3050d0e73ed452082597c6acd006915b087fdb8"
+    },
+    "praxis.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-d643c406-69bb-4816-8055-9b756b33ba62.png",
+      "sha256": "5f4d5b1858365e32995c8fca2e1cef5520311cdaac70ae90efdf38d88585117f"
+    },
+    "stealth.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-b8e595ed-8966-469c-a4e9-bbddfd825c8e.png",
+      "sha256": "9cb86ae64c140f0c5e4f8b993141b1b82479235ed92f676d28c438d1b6ce6a21"
+    },
+    "aio.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-65079d2d-73b7-4ec6-85fc-2fe0b23b84dd.png",
+      "sha256": "e1bbca8872d274b108ee12ba27a3c1cbdb9efcf947258657a84d0432d6e8781a"
+    },
+    "pwc.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-f39c9ef4-2744-4d99-8ee9-3ff4e0d697d6.png",
+      "sha256": "383e6b9bb91d6398db9b8270b1abe0ac0815fe72802d1069be21d2f0a42b16a8"
+    },
+    "raid.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-5a1aea03-0c4d-4ea3-b914-21c38ba908a0.png",
+      "sha256": "08e3eb2a34fad6cc1926fc546050f010a06f8f898157f4b4af4f5561eb89da94"
+    },
+    "jpmorgan.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-fa6c8c66-6109-4486-af9d-816d82888f67.png",
+      "sha256": "331c80e6c26f4c1a12c868a6172a03fc8b2171827164e39afc5b19c53c9e0eb0"
+    },
+    "best-brains.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-96624893-132a-40bd-94f8-6162e4b224f3.png",
+      "sha256": "e62f9b3a42df65d9d4f1a946b99255b1bb5fbc95ea7419f058258ff68566a882"
+    },
+    "smucker.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-158d6951-e06d-4007-baae-491a2de72102.png",
+      "sha256": "56c27deed7e233dd3452c113b563fc9401f610bb8085425aabb9402e246f9555"
+    },
+    "google.png": {
+      "source": "user-provided",
+      "original_filename": "codex-clipboard-1227bf53-3ce4-47de-b246-1c5a828a97dc.png",
+      "sha256": "11e8a4b4b6b2059e5960aa53bd5361fbcbe712a4a9996721d37957d166faa241"
+    },
+    "all-star-code.svg": {
+      "source": "https://allstarcode.org/wp-content/themes/all-star-code/assets/img/logo.svg",
+      "page": "https://allstarcode.org/",
+      "sha256": "37ca7626e8d7b1d396a684f6219b571aa87b956e9b2b3069c9d098763ab82820"
+    },
+    "skillsusa.png": {
+      "source": "https://www.skillsusa.org/wp-content/themes/timberland/theme/assets/images/logo.png",
+      "page": "https://www.skillsusa.org/",
+      "sha256": "99613466d1bca3c66433c36f2df636c00c5aa862fa37ba7890a6e6b18ce4fa69"
+    },
+    "ut-austin.svg": {
+      "source": "https://www.utexas.edu/themes/coresite/coretheme/images/logo.svg",
+      "page": "https://www.utexas.edu/",
+      "sha256": "8f90e26c7070fb5f16a0c919c11059aac9d9df1d8c5e68884d662daefcb59efa"
+    },
+    "frontlines.webp": {
+      "source": "https://images.squarespace-cdn.com/content/v1/68431722fa65153c84ff7403/63e1c63a-7111-4d5b-99d2-dd6a06a0d3e7/favicon.ico?format=100w",
+      "page": "https://www.frontlines.foundation/",
+      "note": "Official website favicon. Squarespace returns WebP despite .ico source URL.",
+      "sha256": "efea5e9da356ac10ba49b30e23f04a3573ad4bb31134b81c60846953cbd78425"
+    },
+    "prosper-isd.png": {
+      "source": "https://cmsv2-assets.apptegy.net/uploads/20814/logo/23628/dc99d48a-b453-49dd-b791-bebfafbf0b69.png",
+      "page": "https://www.prosper-isd.net/",
+      "note": "Official Prosper ISD header logo, white mark on transparent background. Replaces misidentified Plano ISD logo.",
+      "sha256": "0e0b4db154cd707a73a554ae33c7780a76b84b7a0a020dd2406fbfba15b822f3"
+    }
+  },
+  "not_downloaded": {
+    "college-board": {
+      "reason": "Official guidance restricts logo use on third-party websites without written permission. Plain text link recommended.",
+      "source": "https://privacy.collegeboard.org/copyright-trademark/request-instructions"
+    }
+  }
+}
