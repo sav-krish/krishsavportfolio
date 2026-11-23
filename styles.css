@@ -104,6 +104,8 @@ nav .nav-cta:hover { background: var(--ink); color: #fff; }
 .xp-copy h3, .edu h3 { font-size: 1.02rem; font-weight: 600; line-height: 1.4; letter-spacing: -.015em; }
 .xp-copy h3 a, .edu h3 a { text-decoration: underline; text-decoration-color: transparent; transition: text-decoration-color .2s; }
 .xp-copy h3 a:hover, .edu h3 a:hover { text-decoration-color: #9aa19c; }
+.xp-copy h3 a::after { content: '\2197'; display: inline-block; margin-left: 5px; font-size: .75em; font-weight: 500; color: #a3a8a4; transition: color .2s, transform .2s; }
+.xp-copy h3 a:hover::after { color: var(--ink); transform: translate(1px, -1px); }
 .company-line { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 10px; }
 .company-context { font-weight: 400; color: var(--muted); }
 .tag { font-size: .6875rem; font-weight: 600; letter-spacing: .02em; line-height: 1.7; padding: 1px 8px; border-radius: 999px; }
@@ -169,7 +171,7 @@ nav .nav-cta:hover { background: var(--ink); color: #fff; }
 .paper-lines.short { width: 84%; }
 .paper-author { display: block; margin-top: 12px; color: var(--muted); font-size: 6px; }
 .research-copy { max-width: 570px; }
-.research-copy h3 { font-family: var(--serif); font-size: 2.5rem; font-weight: 400; line-height: 1.13; letter-spacing: -.02em; margin-top: 14px; }
+.research-copy h3 { font-family: var(--serif); font-size: 2.5rem; font-weight: 400; line-height: 1.13; letter-spacing: -.02em; }
 .research-copy > p:not(.eyebrow) { color: var(--muted); margin-top: 14px; max-width: 53ch; font-size: .9375rem; }
 .paper-link { display: inline-flex; align-items: center; gap: 10px; margin-top: 22px; color: var(--ink); font-size: .875rem; font-weight: 500; border-bottom: 1px solid var(--ink); padding-bottom: 3px; }
 .paper-link svg { width: 13px; height: 13px; stroke: currentColor; stroke-width: 1.6; fill: none; }
@@ -260,7 +262,7 @@ nav .nav-cta:hover { background: var(--ink); color: #fff; }
   .paper-sheet { height: 190px; width: 167px; padding-top: 18px; transform: rotate(-6deg) translateY(15px); }
   .paper-mini-title { margin-top: 10px; }
   .paper-rule { margin-block: 10px; }
-  .research-copy h3 { font-size: 2rem; margin-top: 12px; }
+  .research-copy h3 { font-size: 2rem; }
   .fun { grid-template-columns: 1fr; gap: 12px; }
   .fun-card { padding: 22px; gap: 18px; }
   .fun-barca { gap: 18px; }
