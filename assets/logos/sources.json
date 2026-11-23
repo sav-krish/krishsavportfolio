@@ -76,12 +76,45 @@
       "page": "https://www.prosper-isd.net/",
       "note": "Official Prosper ISD header logo, white mark on transparent background. Replaces misidentified Plano ISD logo.",
       "sha256": "0e0b4db154cd707a73a554ae33c7780a76b84b7a0a020dd2406fbfba15b822f3"
-    }
-  },
-  "not_downloaded": {
-    "college-board": {
-      "reason": "Official guidance restricts logo use on third-party websites without written permission. Plain text link recommended.",
-      "source": "https://privacy.collegeboard.org/copyright-trademark/request-instructions"
+    },
+    "national-merit.png": {
+      "source": "user-provided",
+      "sha256": "2fcd671afeaf38f91252371bdb05474936bbd81774d14d9086b9d788ba60fa01"
+    },
+    "walnut-grove.png": {
+      "source": "user-provided",
+      "sha256": "59c46421e883c7a10083cbcb1cb32864cf938f69be744c5da7a4978896a3aa56"
+    },
+    "fc-barcelona.png": {
+      "source": "user-provided",
+      "sha256": "44e9994caaa452fd42446aa8974b054cf34d1b39dc6afad8238e427275186f29"
+    },
+    "deca.svg": {
+      "source": "https://cdn.prod.website-files.com/635c3c9aaccd75594c3f6c08/635c67f556f7d66bd5159f5a_deca-logo-blue.svg",
+      "page": "https://www.deca.org/",
+      "sha256": "5238d8cbb3e34dbb22694c5c1eb0c7bb9bcb17bc94c2ab04b117f2262aa298da"
+    },
+    "iac.png": {
+      "source": "https://iacompetitions.com/wp-content/uploads/2022/10/IAC-USA-Division-Logo-web-1.png",
+      "page": "https://www.iacompetitions.com/",
+      "sha256": "3af4374c3621e6c38a1aa9b5b0e1a5748fafd4f4daef305995cd5366b162851c"
+    },
+    "college-board.png": {
+      "source": "https://atlas.collegeboard.org/apricot/prod/4.12.2/assets/apple-touch-icon.png",
+      "page": "https://apstudents.collegeboard.org/",
+      "sha256": "85301bd48f658be283931eb3732a75edb83fdcc860c642fd7fe7e05e16512fa0"
+    },
+    "cert-atlassian.svg": {
+      "source": "simple-icons@13.21.0 (CC0)",
+      "sha256": "c0aaa685c710bfe6a824b0076287f4383c85cc67bc561059814885d0d6184f39"
+    },
+    "cert-anthropic.svg": {
+      "source": "simple-icons@13.21.0 (CC0)",
+      "sha256": "d55ca2eaf08e22e66fa3fec9318c1fd6814b725a135967dcf20f3b063ac7933c"
+    },
+    "cert-linkedin.svg": {
+      "source": "simple-icons@13.21.0 (CC0)",
+      "sha256": "c436cf50a529595e5013e711db448523bb894995bef62d92ea44d93c86364318"
     }
   }
 }
