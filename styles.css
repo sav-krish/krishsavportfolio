@@ -151,10 +151,9 @@ details.xp-card { padding: 0; }
 .edu { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; align-items: stretch; }
 .edu-col { display: flex; flex-direction: column; }
 .edu-col .chips-label { margin-top: auto; }
-.edu-main { display: flex; flex-direction: column; gap: 20px; align-items: flex-start; margin-bottom: 36px; }
-.ut-logo { display: block; width: auto; height: 44px; }
+.edu-main { display: flex; gap: 18px; align-items: flex-start; margin-bottom: 36px; }
 .logo-ut { width: 56px; height: 56px; }
-.logo-ut img { padding: 8px; }
+.logo-ut img { width: auto; height: 100%; padding: 9px; object-fit: contain; }
 .edu .role { margin-top: 2px; }
 .edu-date { margin-top: 8px; padding: 0; }
 .edu h4 { font-size: .75rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }

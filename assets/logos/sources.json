@@ -60,11 +60,6 @@
       "page": "https://www.skillsusa.org/",
       "sha256": "99613466d1bca3c66433c36f2df636c00c5aa862fa37ba7890a6e6b18ce4fa69"
     },
-    "ut-austin.svg": {
-      "source": "https://www.utexas.edu/themes/coresite/coretheme/images/logo.svg",
-      "page": "https://www.utexas.edu/",
-      "sha256": "8f90e26c7070fb5f16a0c919c11059aac9d9df1d8c5e68884d662daefcb59efa"
-    },
     "frontlines.webp": {
       "source": "https://images.squarespace-cdn.com/content/v1/68431722fa65153c84ff7403/63e1c63a-7111-4d5b-99d2-dd6a06a0d3e7/favicon.ico?format=100w",
       "page": "https://www.frontlines.foundation/",
@@ -110,6 +105,11 @@
     "cert-linkedin.svg": {
       "source": "simple-icons@13.21.0 (CC0)",
       "sha256": "c436cf50a529595e5013e711db448523bb894995bef62d92ea44d93c86364318"
+    },
+    "ut-shield.png": {
+      "source": "user-provided",
+      "note": "Shield cropped from the official UT Austin logo",
+      "sha256": "23c28ee3306d385b44b055c6edf62de47fb9f1d35c97a7ed8ef083cf5bc4fb20"
     }
   }
 }
