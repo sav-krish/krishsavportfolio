@@ -3,8 +3,8 @@
   --ink: #111312;
   --body: #2b2f2c;
   --muted: #646a66;
-  --accent: #1d4ed8;
-  --accent-soft: #e8eefc;
+  --accent: #111312;
+  --accent-soft: #eff0ef;
   --line: #e8eae8;
   --surface: #f7f8f7;
   --serif: 'Instrument Serif', Georgia, serif;
@@ -148,9 +148,11 @@ details.xp-card { padding: 0; }
 .impact strong { color: var(--ink); font-weight: 600; }
 
 /* Education */
-.edu { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; align-items: start; }
-.edu-main { display: flex; flex-direction: column; gap: 18px; align-items: flex-start; margin-bottom: 36px; }
-.ut-logo { width: 170px; height: auto; }
+.edu { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 56px; align-items: stretch; }
+.edu-col { display: flex; flex-direction: column; }
+.edu-col .chips-label { margin-top: auto; }
+.edu-main { display: flex; flex-direction: column; gap: 20px; align-items: flex-start; margin-bottom: 36px; }
+.ut-logo { display: block; width: auto; height: 44px; }
 .logo-ut { width: 56px; height: 56px; }
 .logo-ut img { padding: 8px; }
 .edu .role { margin-top: 2px; }
@@ -159,6 +161,7 @@ details.xp-card { padding: 0; }
 .chips { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
 .chips li { display: flex; flex-direction: column; padding: 10px 14px; background: var(--surface); border-radius: 10px; font-size: .875rem; color: var(--ink); line-height: 1.4; }
 .chips span { font-size: .6875rem; font-weight: 600; letter-spacing: .06em; color: var(--accent); margin-bottom: 2px; }
+.orgs { flex: 1; display: flex; flex-direction: column; justify-content: space-between; }
 .orgs li { padding-block: 16px; border-bottom: 1px solid var(--line); }
 .orgs li:first-child { padding-top: 0; }
 .orgs li:last-child { border-bottom: 0; padding-bottom: 0; }
