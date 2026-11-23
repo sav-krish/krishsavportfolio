@@ -47,7 +47,7 @@ function revealAll() {
 
 function setupReveals() {
   if (motionPreference.matches || !('IntersectionObserver' in window)) return;
-  const elements = document.querySelectorAll('.xp, .edu, .certs li, .award, .research-paper, .fun li');
+  const elements = document.querySelectorAll('.xp, .edu, .certs li, .award, .research-paper, .projects li, .fun li');
   revealObserver = new IntersectionObserver(entries => {
     for (const entry of entries) {
       if (entry.isIntersecting) {
