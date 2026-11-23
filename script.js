@@ -54,6 +54,37 @@ if (timeline) {
   scheduleSpacing();
 }
 
+// Type out the name on load. Every letter keeps its space, so the centered layout never shifts.
+function typeName() {
+  const title = document.getElementById('intro-title');
+  if (!title || motionPreference.matches) return;
+  const text = title.textContent.trim();
+  title.setAttribute('aria-label', text);
+  title.textContent = '';
+  const letters = [...text].map(character => {
+    const letter = document.createElement('span');
+    letter.className = 'type-char';
+    letter.setAttribute('aria-hidden', 'true');
+    letter.textContent = character;
+    title.appendChild(letter);
+    return letter;
+  });
+  title.classList.add('is-typing');
+  let index = 0;
+  const next = () => {
+    if (index === letters.length) {
+      setTimeout(() => title.classList.add('is-typed-done'), 1800);
+      return;
+    }
+    letters[index - 1]?.classList.remove('is-current');
+    letters[index].classList.add('is-typed', 'is-current');
+    index += 1;
+    setTimeout(next, 70 + Math.random() * 60);
+  };
+  setTimeout(next, 350);
+}
+typeName();
+
 // Old #research links point to the renamed section
 if (location.hash === '#research') {
   history.replaceState(null, '', '#work');
