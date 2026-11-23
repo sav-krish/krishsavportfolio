@@ -93,7 +93,6 @@ nav .nav-cta:hover { background: var(--ink); color: #fff; }
 .logo-pad img { padding: 6px; }
 .logo-green { background: #006341; border-color: #006341; }
 .logo-green img { padding: 7px; }
-.logo-mono span { font-family: var(--serif); font-size: 1.3rem; color: var(--ink); letter-spacing: -.02em; }
 
 /* Experience timeline */
 .timeline { position: relative; }

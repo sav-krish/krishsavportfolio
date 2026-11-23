@@ -12,4 +12,6 @@ python3 -m http.server 4180
 
 Open http://localhost:4180. Content is in `index.html`, styling in `styles.css`, and the mobile menu and optional entrance animations in `script.js`. Logos are stored locally under `assets/logos`; source attribution is in `assets/logos/sources.json`.
 
+When you change `styles.css` or `script.js`, bump the `?v=` value on their tags in `index.html` so browsers fetch the new file instead of a cached copy.
+
 The page is light only and supports reduced motion, keyboard navigation, and printing. All resume content is available without JavaScript.
