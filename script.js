@@ -54,6 +54,12 @@ if (timeline) {
   scheduleSpacing();
 }
 
+// Old #research links point to the renamed section
+if (location.hash === '#research') {
+  history.replaceState(null, '', '#work');
+  document.getElementById('work')?.scrollIntoView();
+}
+
 // Header border once the page scrolls
 const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
 window.addEventListener('scroll', onScroll, { passive: true });
