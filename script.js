@@ -19,6 +19,21 @@ document.addEventListener('keydown', event => { if (event.key === 'Escape') setM
 document.addEventListener('click', event => { if (!header.contains(event.target)) setMenu(false); });
 window.matchMedia('(min-width: 821px)').addEventListener('change', event => { if (event.matches) setMenu(false); });
 
+// Experience: alternate roles left and right of the spine on wide screens
+const timeline = document.querySelector('.timeline');
+if (timeline) {
+  const left = timeline.querySelector('.tl-left');
+  const right = timeline.querySelector('.tl-right');
+  const roles = [...left.children];
+  const wide = window.matchMedia('(min-width: 821px)');
+  const arrange = () => {
+    roles.forEach((role, index) => (wide.matches && index % 2 ? right : left).appendChild(role));
+    timeline.classList.toggle('is-split', wide.matches);
+  };
+  wide.addEventListener('change', arrange);
+  arrange();
+}
+
 // Header border once the page scrolls
 const onScroll = () => header.classList.toggle('is-scrolled', window.scrollY > 8);
 window.addEventListener('scroll', onScroll, { passive: true });
@@ -48,6 +63,9 @@ function setupReveals() {
 }
 
 motionPreference.addEventListener('change', event => { if (event.matches) revealAll(); });
-window.addEventListener('beforeprint', revealAll);
+window.addEventListener('beforeprint', () => {
+  revealAll();
+  document.querySelectorAll('details.xp-card').forEach(card => { card.open = true; });
+});
 document.getElementById('year').textContent = new Date().getFullYear();
 setupReveals();
